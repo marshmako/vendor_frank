@@ -72,5 +72,9 @@ PRODUCT_COPY_FILES += \
     vendor/frank/prebuilt/common/vendor/lib/libWVStreamControlAPI_L1.so:/system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/frank/prebuilt/common/vendor/lib/drm/libdrmwvmplugin.so:/system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/frank/prebuilt/common/vendor/lib/mediadrm/libwvdrmengine.so:/system/vendor/lib/mediadrm/libwvdrmengine.so \
+    
+# init.d script support
+PRODUCT_COPY_FILES += \
+    vendor/frank/prebuilt/common/bin/sysinit:system/bin/sysinit
 
 -include vendor/frank/products/common_fingerprints.mk
