@@ -1,6 +1,6 @@
 # Generic product
-PRODUCT_NAME := chroma
-PRODUCT_BRAND := chroma
+PRODUCT_NAME := frank
+PRODUCT_BRAND := frank
 PRODUCT_DEVICE := generic
 
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -20,7 +20,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Common overlay
 PRODUCT_PACKAGE_OVERLAYS += \
-    vendor/chroma/overlay/common
+    vendor/frank/overlay/common
 
 # Enable SIP+VoIP on all targets
 PRODUCT_COPY_FILES += \
@@ -31,12 +31,12 @@ PRODUCT_COPY_FILES += \
 
 # media effects
 PRODUCT_COPY_FILES +=  \
-    vendor/chroma/prebuilt/common/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
-    vendor/chroma/prebuilt/common/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd
+    vendor/frank/prebuilt/common/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
+    vendor/frank/prebuilt/common/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd
 
 # Latin IME lib - gesture typing
 PRODUCT_COPY_FILES += \
-    vendor/chroma/prebuilt/common/lib/libjni_latinimegoogle.so:system/lib/libjni_latinimegoogle.so
+    vendor/frank/prebuilt/common/lib/libjni_latinimegoogle.so:system/lib/libjni_latinimegoogle.so
 
 # Extra packages
 PRODUCT_PACKAGES += \
@@ -45,19 +45,19 @@ PRODUCT_PACKAGES += \
 
 # APN list
 PRODUCT_COPY_FILES += \
-    vendor/chroma/prebuilt/common/etc/apns-conf.xml:system/etc/apns-conf.xml
+    vendor/frank/prebuilt/common/etc/apns-conf.xml:system/etc/apns-conf.xml
 
 # SuperSU
 PRODUCT_COPY_FILES += \
-    vendor/chroma/prebuilt/common/etc/UPDATE-SuperSU.zip:system/addon.d/UPDATE-SuperSU.zip \
-    vendor/chroma/prebuilt/common/etc/init.d/99SuperSUDaemon:system/etc/init.d/99SuperSUDaemon
+    vendor/frank/prebuilt/common/etc/UPDATE-SuperSU.zip:system/addon.d/UPDATE-SuperSU.zip \
+    vendor/frank/prebuilt/common/etc/init.d/99SuperSUDaemon:system/etc/init.d/99SuperSUDaemon
  
 # Backup Tool
 PRODUCT_COPY_FILES += \
-    vendor/chroma/prebuilt/common/addon.d/50-chroma.sh:system/addon.d/50-chroma.sh \
-    vendor/chroma/prebuilt/common/addon.d/99-backup.sh:system/addon.d/99-backup.sh \
-    vendor/chroma/prebuilt/common/bin/backuptool.sh:system/bin/backuptool.sh \
-    vendor/chroma/prebuilt/common/bin/backuptool.functions:system/bin/backuptool.functions \
-    vendor/chroma/prebuilt/common/etc/backup.conf:system/etc/backup.conf
+    vendor/frank/prebuilt/common/addon.d/50-frank.sh:system/addon.d/50-frank.sh \
+    vendor/frank/prebuilt/common/addon.d/99-backup.sh:system/addon.d/99-backup.sh \
+    vendor/frank/prebuilt/common/bin/backuptool.sh:system/bin/backuptool.sh \
+    vendor/frank/prebuilt/common/bin/backuptool.functions:system/bin/backuptool.functions \
+    vendor/frank/prebuilt/common/etc/backup.conf:system/etc/backup.conf
 
--include vendor/chroma/products/common_fingerprints.mk
+-include vendor/frank/products/common_fingerprints.mk
