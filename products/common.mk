@@ -15,7 +15,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     net.tethering.noprovisioning=true \
     persist.sys.dun.override=0 \
     ro.build.selinux=1 \
-    ro.adb.secure=1 \
+    ro.adb.secure=0 \
     ro.error.receiver.system.apps=com.google.android.gms \
     ro.setupwizard.enterprise_mode=1 \
     ro.setupwizard.network_required=false \
@@ -30,10 +30,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.ril.enable.amr.wideband=1 \
     ro.mod.display.version=Mutant-2.0 \
     drm.service.enabled=true \
-    dalvik.vm.image-dex2oat-filter=everything \
-    dalvik.vm.dex2oat-filter=everything
-     
-    
+
 # Common overlay
 PRODUCT_PACKAGE_OVERLAYS += \
     vendor/frank/overlay/common
@@ -50,12 +47,10 @@ PRODUCT_COPY_FILES +=  \
     vendor/frank/prebuilt/common/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
     vendor/frank/prebuilt/common/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd
 
-# Latin IME lib - gesture typing
-PRODUCT_COPY_FILES += \
-    vendor/frank/prebuilt/common/lib/libjni_latinimegoogle.so:system/lib/libjni_latinimegoogle.so
 
 # Extra packages
 PRODUCT_PACKAGES += \
+    Launcher2 \
     Launcher3 \
     Stk 
 

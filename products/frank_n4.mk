@@ -20,8 +20,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=occam \
     BUILD_FINGERPRINT=google/occam/mako:6.0/MRA58K/2256973:user/release-keys \
     PRIVATE_BUILD_DESC="occam-user 6.0 MRA58K 2256973 release-keys"
-
-#Build.prop overide for lte
-PRODUCT_PROPERTY_OVERRIDES += \
-ro.telephony.default_network=10 \
-telephony.lteOnCdmaDevice=1
