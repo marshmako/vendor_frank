@@ -70,7 +70,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/frank/prebuilt/common/vendor/lib/libwvdrm_L1.so:/system/vendor/lib/libwvdrm_L1.so \
     vendor/frank/prebuilt/common/vendor/lib/libwvm.so:/system/vendor/lib/libwvm.so \
-    vendor/frank/prebuilt/common/lib/drm/libfwdlockengine.so:/system/lib/drm/libfwdlockengine.so \
     vendor/frank/prebuilt/common/vendor/lib/mediadrm/libdrmclearkeyplugin.so:/system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/frank/prebuilt/common/vendor/lib/libWVStreamControlAPI_L1.so:/system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/frank/prebuilt/common/vendor/lib/drm/libdrmwvmplugin.so:/system/vendor/lib/drm/libdrmwvmplugin.so \
