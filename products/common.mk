@@ -30,8 +30,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.ril.enable.amr.wideband=1 \
     ro.mod.display.version=Mutant-2.0 \
     drm.service.enabled=true \
-    dalvik.vm.image-dex2oat-filter=everything \
-    dalvik.vm.dex2oat-filter=everything
     
 # Common overlay
 PRODUCT_PACKAGE_OVERLAYS += \
