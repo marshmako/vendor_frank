@@ -14,6 +14,11 @@ PRODUCT_MANUFACTURER := motorola
 # Boot animation
 PRODUCT_COPY_FILES += \
     vendor/frank/prebuilt/shamu/system/media/bootanimation.zip:system/media/bootanimation.zip
+    
+# Extra packages
+PRODUCT_PACKAGES += \
+    Launcher3 \
+    Stk 
 
 # Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \

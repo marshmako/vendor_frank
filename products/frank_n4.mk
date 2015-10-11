@@ -14,6 +14,11 @@ PRODUCT_MANUFACTURER := LGE
 # Boot animation
 PRODUCT_COPY_FILES += \
     vendor/frank/prebuilt/shamu/system/media/bootanimation.zip:system/media/bootanimation.zip
+    
+# Extra packages
+PRODUCT_PACKAGES += \
+    Launcher2 \
+    Stk 
 
 # Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \

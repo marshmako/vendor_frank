@@ -47,13 +47,6 @@ PRODUCT_COPY_FILES +=  \
     vendor/frank/prebuilt/common/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
     vendor/frank/prebuilt/common/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd
 
-
-# Extra packages
-PRODUCT_PACKAGES += \
-    Launcher2 \
-    Launcher3 \
-    Stk 
-
 # APN list
 PRODUCT_COPY_FILES += \
     vendor/frank/prebuilt/common/etc/apns-conf.xml:system/etc/apns-conf.xml
