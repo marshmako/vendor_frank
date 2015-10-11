@@ -18,7 +18,8 @@ PRODUCT_COPY_FILES += \
 # Extra packages
 PRODUCT_PACKAGES += \
     Launcher2 \
-    Stk 
+    Stk \
+    Busybox
 
 # Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
