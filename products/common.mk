@@ -30,7 +30,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.ril.enable.amr.wideband=1 \
     ro.mod.display.version=Mutant-2.0 \
     drm.service.enabled=true \
-
+    dalvik.vm.image-dex2oat-filter=everything \
+    dalvik.vm.dex2oat-filter=everything
+    
 # Common overlay
 PRODUCT_PACKAGE_OVERLAYS += \
     vendor/frank/overlay/common
@@ -63,5 +65,15 @@ PRODUCT_COPY_FILES += \
     vendor/frank/prebuilt/common/bin/backuptool.sh:system/bin/backuptool.sh \
     vendor/frank/prebuilt/common/bin/backuptool.functions:system/bin/backuptool.functions \
     vendor/frank/prebuilt/common/etc/backup.conf:system/etc/backup.conf
+    
+# DRM
+PRODUCT_COPY_FILES += \
+    vendor/frank/prebuilt/common/vendor/lib/libwvdrm_L1.so:/system/vendor/lib/libwvdrm_L1.so \
+    vendor/frank/prebuilt/common/vendor/lib/libwvm.so:/system/vendor/lib/libwvm.so \
+    vendor/frank/prebuilt/common/lib/drm/libfwdlockengine.so:/system/lib/drm/libfwdlockengine.so \
+    vendor/frank/prebuilt/common/vendor/lib/mediadrm/libdrmclearkeyplugin.so:/system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
+    vendor/frank/prebuilt/common/vendor/lib/libWVStreamControlAPI_L1.so:/system/vendor/lib/libWVStreamControlAPI_L1.so \
+    vendor/frank/prebuilt/common/vendor/lib/drm/libdrmwvmplugin.so:/system/vendor/lib/drm/libdrmwvmplugin.so \
+    vendor/frank/prebuilt/common/vendor/lib/mediadrm/libwvdrmengine.so:/system/vendor/lib/mediadrm/libwvdrmengine.so \
 
 -include vendor/frank/products/common_fingerprints.mk
