@@ -16,6 +16,9 @@
         <item>airplane</item>
         <item>bugreport</item>
     </string-array>
+    
+    <!-- enable doze powersaving mode -->
+     <bool name="config_enableAutoPowerModes">true</bool>
 
     <!-- Disable stock OTA components if installed -->
     <string-array name="config_disabledComponents" translatable="false">
