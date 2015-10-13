@@ -28,6 +28,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.facelock.use_intro_anim=false \
     ro.ril.enable.amr.wideband=1 \
     drm.service.enabled=true \
+    ro.layers.noIcon=noIcon
     
 # Common overlay
 PRODUCT_PACKAGE_OVERLAYS += \
