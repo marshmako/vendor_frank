@@ -27,7 +27,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.facelock.est_max_time=600 \
     ro.facelock.use_intro_anim=false \
     ro.ril.enable.amr.wideband=1 \
-    ro.layers.noIcon \
     drm.service.enabled=true \
     
 # Common overlay
