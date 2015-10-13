@@ -19,7 +19,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.error.receiver.system.apps=com.google.android.gms \
     ro.setupwizard.enterprise_mode=1 \
     ro.setupwizard.network_required=false \
-    ro.setupwizard.gservices_delay=-1 \
     keyguard.no_require_sim=true \
     ro.facelock.black_timeout=400 \
     ro.facelock.det_timeout=1500 \
@@ -28,7 +27,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.facelock.est_max_time=600 \
     ro.facelock.use_intro_anim=false \
     ro.ril.enable.amr.wideband=1 \
-    ro.mod.display.version=Mutant-2.0 \
+    ro.layers.noIcon \
     drm.service.enabled=true \
     
 # Common overlay
