@@ -16,6 +16,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.dun.override=0 \
     ro.build.selinux=1 \
     ro.adb.secure=0 \
+    persist.sys.usb.config=mtp,adb \
     ro.error.receiver.system.apps=com.google.android.gms \
     ro.setupwizard.enterprise_mode=1 \
     ro.setupwizard.network_required=false \
