@@ -1,2 +1,3 @@
 add_lunch_combo frank_shamu-userdebug
-add_lunch_combo frank_n4-userdebug
+add_lunch_combo frank_mako-userdebug
+add_lunch_combo frank_hammerhead-userdebug
