@@ -1,3 +1,5 @@
 add_lunch_combo frank_shamu-userdebug
 add_lunch_combo frank_mako-userdebug
 add_lunch_combo frank_hammerhead-userdebug
+add_lunch_combo frank_angler-userdebug
+add_lunch_combo frank_bullhead-userdebug
