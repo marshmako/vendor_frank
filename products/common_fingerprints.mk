@@ -33,3 +33,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=bullhead \
     BUILD_FINGERPRINT=google/bullhead/bullhead:6.0/MDB08M/2353240:user/release-keys \
     PRIVATE_BUILD_DESC="bullhead-user 6.0 MDB08M 2353240 release-keys"
+endif
