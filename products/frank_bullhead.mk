@@ -5,7 +5,7 @@ $(call inherit-product, device/lge/bullhead/aosp_bullhead.mk)
 $(call inherit-product, vendor/frank/products/common.mk)
 
 # Setup device specific product configuration.
-PRODUCT_NAME := shamu_bullhead
+PRODUCT_NAME := frank_bullhead
 PRODUCT_BRAND := google
 PRODUCT_DEVICE := bullhead
 PRODUCT_MODEL := Nexus 5X
