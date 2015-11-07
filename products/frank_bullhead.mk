@@ -1,5 +1,5 @@
 # Inherit AOSP device configuration for hammerhead.
-$(call inherit-product, device/lge/hammerhead/aosp_bullhead)
+$(call inherit-product, device/lge/bullhead/aosp_bullhead)
 
 # Inherit common product files.
 $(call inherit-product, vendor/frank/products/common.mk)
